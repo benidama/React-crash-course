@@ -2,6 +2,9 @@ import React from 'react'
 import Events from '../Components/Events'
 import logo from '../logo.svg'; 
 import Status from '../Components/Status';
+import Async from '../Components/Async'; 
+import Counter from '../Components/Counter';
+
 
 const Home = () => {
 
@@ -27,6 +30,8 @@ const Home = () => {
 
       <Events />
       <Status/>
+      <Counter/>
+      <Async/>
     </>
   )
 }

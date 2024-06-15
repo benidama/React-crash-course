@@ -1,6 +1,7 @@
 import React from 'react'
 import Timer from '../Components/Timer'
 import Propss from '../Components/Propss'
+import Counter from '../Components/Counter'
 
 const Blogs = () => {
   return (
@@ -12,6 +13,7 @@ const Blogs = () => {
       <Propss/>
 
       <Timer/>
+      <Counter/>
     </div>
   )
 }
