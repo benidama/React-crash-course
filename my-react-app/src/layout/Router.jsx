@@ -7,16 +7,16 @@ const Router = () => {
     <>
     <div>
       
-      <nav className="navbar navbar-expand-sm bg-primary justify-content-center" >
+    <nav className='navbar navbar-expand-sm bg-primary justify-content-center'>
         <ul className='navbar-nav'>
-          <li className='nav-items'>
-            <Link className='nav-link text-white'  to="/">Home</Link>
+          <li className='nav-item'>
+            <Link className='nav-link text-white' to="/">Home</Link>
           </li>
-          <li className='nav-items'>
-            <Link className='nav-link text-white'  to="/contactus">ContactUs</Link>
+          <li className='nav-item'>
+            <Link className='nav-link text-white' to="/blogs">Blogs</Link>
           </li>
-          <li className='nav-items' >
-            <Link className='nav-link text-white'  to="/blogs">Blogs</Link>
+          <li className='nav-item'>
+            <Link className='nav-link text-white' to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

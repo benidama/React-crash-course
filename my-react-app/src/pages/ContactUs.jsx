@@ -1,6 +1,6 @@
 import React from 'react'
 import HomePage from '../Components/HomePage'
-import Fectda from '../Components/Fectda'
+
 
 const ContactUs = () => {
 
@@ -17,9 +17,6 @@ const ContactUs = () => {
             X: @benimanajanda1 <br />
             Instagram: @benidama
         </footer>
-        <Fectda/>
-      
- 
     </>
   )
 }

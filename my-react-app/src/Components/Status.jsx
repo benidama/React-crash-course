@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import Timer from './Timer' 
+
 
 const Updetedhoo = () => {
   const [car, setCar] = useState({
@@ -38,7 +38,7 @@ const Status = () => {
         <button className='btn btn-primary text-red m-3' type='button' onClick={() => setColor("blue")}>blue</button>
         <button className='btn btn-success text-red m-3' type='button' onClick={() => setColor("green")}>green</button>
         <button type='button' onClick={() => setType("Calina")} className='btn btn-secondary m-3 text-red'>Calina</button>
-        <Timer />
+        
         
     </div>
   )

@@ -1,5 +1,4 @@
 import React from 'react'
-import Timer from '../Components/Timer'
 import Propss from '../Components/Propss'
 import Counter from '../Components/Counter'
 
@@ -11,8 +10,6 @@ const Blogs = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reiciendis animi nobis.</p>
       </div>
       <Propss/>
-
-      <Timer/>
       <Counter/>
     </div>
   )
