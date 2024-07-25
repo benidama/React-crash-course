@@ -16,12 +16,11 @@ const Router = () => {
             <Link className='nav-link text-white' to="/blogs">Blogs</Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link text-white' to="/contact">Contact</Link>
+            <Link className='nav-link text-white' to="/contactus">Contact</Link>
           </li>
         </ul>
       </nav>
-    
-      
+
       <Outlet />
        
     </div>
