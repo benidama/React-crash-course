@@ -8,8 +8,9 @@ const ContactUs = () => {
   return (
     <>
     
-         <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta ducimus quas unde corrupti.</p>
+         <h1 className='container text-primary'>Here, we go!.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Excepturi dicta ducimus quas unde corrupti.</p>
         <HomePage/>
         <footer className='text-info bg-secondary container m-3'>
           <span className='text-warning'>plse, follow us through:</span> <br />

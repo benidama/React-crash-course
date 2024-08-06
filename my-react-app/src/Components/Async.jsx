@@ -5,7 +5,7 @@ function FirstOne(){
     return(
         <>
         <p>The following are the first four month of the year</p> 
-        <ul style={{listStyle:'none'}}>{arr.map(ar =><li className='text-success'>{ar}</li>)}</ul>
+        <ul style={{listStyle:'none'}}> {arr.map(ar =><li className='text-success'>{ar}</li>)}</ul>
         </>
         
     )
@@ -17,6 +17,7 @@ function FirstOne(){
     return(
         <div>
             <p>Try this <strong>{sum}</strong> number  </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nisi?</p>
             
         </div>
     )
